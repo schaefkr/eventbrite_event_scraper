@@ -1,0 +1,20 @@
+{
+  "name": "t3cn0",
+  "version": "1.0.0",
+  "description": "t3cn0.com - your source for great t3cn0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js",
+    "build": "handlebars views/partials/home.handlebars",
+    "prestart": "npm run build"
+  },
+  "author": "Kristin Schaefer",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0"
+  }
+}
