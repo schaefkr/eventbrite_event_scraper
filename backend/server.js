@@ -11,9 +11,11 @@ app.use(bodyParser.json());
 app.engine(
     'handlebars',
     exphbs({
-        defaultLayout: 'home'
+        defaultLayout: 'main'
     })
 );
+//test app.set line below
+app.set('views', path.join(__dirname, '..', 'views'));
 app.set('view engine', 'handlebars');
 
 
