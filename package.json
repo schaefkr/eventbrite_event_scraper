@@ -9,8 +9,16 @@
     "build": "handlebars views/partials/home.handlebars",
     "prestart": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schaefkr/t3cn0.git"
+  },
   "author": "Kristin Schaefer",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schaefkr/t3cn0/issues"
+  },
+  "homepage": "https://github.com/schaefkr/t3cn0#readme",
   "dependencies": {
     "axios": "^0.20.0",
     "body-parser": "^1.19.0",
