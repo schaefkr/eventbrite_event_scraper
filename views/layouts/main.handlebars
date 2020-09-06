@@ -2,24 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-<!--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
     <script src="index.js" charset="utf-8" defer></script>
-
-    <link rel="stylesheet" href="./index.css" />
-
+    <link rel="stylesheet" href="./index.css"/>
     <title>t3cn0</title>
-
 </head>
 
 <body>
-
-    <h1> Hello! </h1>
-
+    <div class="bodyContainer">
+        <div class = "headerContainer">
+            <h1 class=technoHeader> t3cn0 </h1>
+            <h3 class=technoDescription>Amsterdam area techno events</h3>
+        </div>
+        {{{body}}}
+    </div>
 </body>
 
 </html>
