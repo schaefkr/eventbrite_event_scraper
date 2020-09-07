@@ -28,6 +28,8 @@ app.use(express.static(path.join(__dirname, '../public/assets/img')));
 app.get('/', async (req, res) => {
     // add resident advisor events
     // const eventURL = https://www.residentadvisor.net/events/nl/amsterdam;
+    // other URLS
+    // https://www.eventbrite.co.uk/d/online/%23techno/     searches #techno (no location)
     const eventURL = 'https://www.eventbrite.com/d/netherlands--amsterdam/techno-music/';
     const eventData = await eventScraper.scrapeEvents(eventURL);
 
