@@ -1,4 +1,5 @@
-# t3cn0
+# eventbrite_event_scraper
+# example: www.t3cn0.com
 
 ## Technologies
 The project has been implemented with Javascript HTML/CSS and other libraries: 

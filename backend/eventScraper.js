@@ -7,11 +7,10 @@ async function scrapeEvents(url) {
             '--no-sandbox'
         ],
     });
-    // '--disable-setuid-sandbox',
     const page = await browser.newPage();
     await page.goto(url);
 
-    // get array of event lis from Eventbrite and return array of objects containing eventName, eventDate and eventURL
+    // get array of events from Eventbrite and return array of objects containing eventName, eventDate and eventURL
     const eventData = await page
         .waitForSelector('div[class="search-main-content"] > ul[class="search-main-content__events-list"] > li')
         .then(() =>

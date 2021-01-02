@@ -1,7 +1,7 @@
 {
-  "name": "t3cn0",
+  "name": "eventbrite_event_scraper",
   "version": "1.0.0",
-  "description": "t3cn0.com - your source for great t3cn0",
+  "description": "Web scraper for Eventbrite event by location and music genre",
   "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schaefkr/t3cn0.git"
+    "url": "https://github.com/schaefkr/eventbrite_event_scraper.git"
   },
   "author": "Kristin Schaefer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/schaefkr/t3cn0/issues"
+    "url": "https://github.com/schaefkr/eventbrite_event_scraper.git"
   },
-  "homepage": "https://github.com/schaefkr/t3cn0#readme",
+  "homepage": "https://github.com/schaefkr/eventbrite_event_scraper",
   "dependencies": {
     "axios": "^0.20.0",
     "body-parser": "^1.19.0",
